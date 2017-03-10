@@ -1,0 +1,470 @@
+html{
+    min-height:100%;/* make sure it is at least as tall as the viewport */
+    position:relative;
+
+}
+
+
+body {
+	height: 100%;
+	background-color: #ffffff; 
+	background-image: url("../images/criz.png");
+	display: ;
+	font-family: Times,serif; 
+	color: #333333; 
+	margin: 0px auto; 
+	padding: 0;
+
+	
+	}
+
+
+header {
+	position: relative;
+	background-color: #4aaaa5; /* teal */
+	width: 275px;
+	height:60px;
+	vertical-align: bottom;
+	
+
+
+	}
+
+
+a {
+	font-family: Arial;
+	color: #666666;
+
+	}
+
+
+
+
+h2 {
+	font-size: 24px;
+	}
+
+
+#tab {
+	color: #ffffff;
+}
+
+
+#wholepage {
+	position: absolute;
+
+	
+	
+	top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    /*overflow: scroll;*/
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*  TOP SECTION  */
+
+
+#top {
+	position: relative;
+	padding-top: 20px;
+	background-color: #ffffff;
+	border-bottom: solid #dddddd;
+	
+
+	
+}
+
+#topinner {
+	width: 960px;
+	height: 60px;
+
+	margin: 0px auto;
+	
+	
+
+}
+
+
+
+#menumove {
+	position: relative;
+	top: -40px;
+	left: -100px;
+	float: right;
+}
+
+
+
+#tab {
+	position: relative;
+	padding-top: 8px;
+	font-size: 40px;
+	text-align: center;	
+
+}
+
+
+
+
+
+
+
+#nav {
+	
+	height: 60px;
+	font-family: Arial;
+	font-size: 12px;
+	color: #dddddd;
+	
+}
+
+#cons {
+
+	 padding-left: 5px;
+	 padding-right: 5px;
+}
+
+
+
+
+
+
+/*  MIDDLE SECTION W/ CONTENT  */
+
+#middle {
+	position: relative;
+	margin: 0px auto;
+	padding-top: 30px;
+	width: 960px;
+	height: calc(100vh - 25%);
+	
+	
+	
+	
+	}
+
+
+
+#about {
+	
+	width: 650px;
+	float: left;
+	background-color: #ffffff;
+	
+}
+
+#aboutpad {
+
+	padding: 30px;
+
+}
+
+#mybio {
+line-height: 1.5;
+
+
+}
+
+#connect {
+
+	position: relative;
+	left: 30px;
+	top:-24px;
+	width: 270px;
+	float: left;
+	background-color: #ffffff;
+	
+}
+
+#connectpad {
+
+	padding: 25px;
+	
+}
+
+#title1 {
+	font-size: 30px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+	padding-bottom: 5px;
+
+}
+
+
+
+
+#title {
+	font-size: 18px;
+	font-weight: bold;
+	font-family: Georgia;
+	color: #4aaaa5;
+	text-align: center;
+
+}
+
+
+#lilhr {
+	width: 230px;
+}
+
+#bighr {
+	width: 590px;
+	margin-bottom: 20px;
+}
+
+#mypic {
+
+	width: 200px;
+	height: 200px;
+	float: left;
+	padding-right: 20px;
+	padding-bottom: 5px;
+
+}
+
+
+
+#icons {
+
+	width: 50px;
+	height: 50px;
+	padding-left: 5px;
+	padding-right: 5px;
+
+	
+}
+
+#allicons {
+
+display: flex;
+margin: 0px auto;
+padding-top: 10px;
+padding-left: 20px;
+
+
+}
+
+
+#centerico {
+	margin: 0px auto;
+}
+
+
+
+
+
+
+
+/*  BOTTOM SECTION  */
+
+
+#bottom {
+	
+	position: relative;
+	background-color: gray;
+	clear:both;
+	text-align: center;
+	border-top: solid #4aaaa5;
+	border-top-width:thick;
+	height: calc(100vh - 89%);
+}
+
+#feet {
+	position: relative;
+	padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+/*  --------    Portfolio Images     ---------    */
+
+#piccontain {
+
+	
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	justify-content: space-between;
+	align-items: flex-start;
+	align-content: flex-start;
+	
+
+}
+
+.pic {
+	/* display: flex;*/
+	width: 250px;
+	height: 200px;
+	
+	
+	
+}
+.nut {
+	
+}
+
+.label {
+	position: relative;
+	top: -90px;
+	width: 250px;
+	height: 50px;
+	background-color: #4aaaa5;
+	box-sizing: border-box;
+	text-align: center;
+	padding: 15px;
+	color: #ffffff;
+	font-size: 20px;
+
+}
+
+
+/* ------   form   ------*/
+
+
+#nav2 {
+	
+	font-family: Arial;
+	font-size: 16px;
+	color: #888888;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	
+}
+
+
+
+
+.tbox {
+
+	display: block;
+	text-indent: 5px;
+  	margin-bottom: 12px;
+  	width: 100%;
+  	height: 30px;
+  	font-family: arial;
+  	font-size: 12px;
+  	-webkit-appearance: none;
+  	-moz-appearance: none;
+  	appearance: none;
+  	box-shadow: none;
+  	border-radius: none;
+	color: #111111;
+	border: none;
+	outline: solid 1px;
+	outline-color: lightgray;
+}
+
+#warn {
+	font-style: italic;
+	color: #dddddd;
+	font-family: arial;
+	font-size: 10px;
+}
+
+
+textarea {
+	
+	max-width: 100%;
+	min-height: 150px;
+	
+	
+}
+
+.subm {
+	margin-top: 10px;
+	background-color: #4aaaa5;
+	box-shadow: 0px;
+	border: 0px;
+	color: #ffffff;
+	outline: none;
+	min-width: 100px;
+	min-height: 30px;
+	border-radius: 0px;
+
+}
+
+
+
+
+
+
+/* ----- @media ----- */
+
+
+
+@media screen and (max-width: 980px) {
+#about {
+        background-color: lightgreen;
+    }
+
+
+
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+#about  {
+        background-color: lightblue;
+    }
+
+
+	
+}
+
+
+
+@media screen and (max-width: 640px) {
+#about  {
+        background-color: green;
+    }
+
+
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
